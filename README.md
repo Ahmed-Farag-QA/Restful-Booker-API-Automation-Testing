@@ -24,7 +24,6 @@ RESTful-Booker-API-Testing/
 ```
 
 
-    ---
 ## 🛠️ Tools & Technologies Used
 * **Postman:** For building the API collection, variable chaining, and scripting.
 * **Newman CLI:** For running the test automation directly via Command Line Interface.
@@ -36,7 +35,7 @@ RESTful-Booker-API-Testing/
 
 ## 📋 Manual Test Cases & Scenarios
 Before jumping into automation, a comprehensive test coverage plan was established. You can review the full manual test cases designed for this project here:
-* 📝 **[View Manual Test Cases Sheet]()**
+* 📝 **[View Manual Test Cases Sheet](manual-test-cases.csv)**
      
 
 ---
@@ -47,7 +46,7 @@ During test execution, critical server vulnerabilities were discovered and docum
 * 🚨 **Bug #1:** API returns `500 Internal Server Error` when trying to create a booking with a completely **missing/empty request body**.
 * 🚨 **Bug #2:** API crashes with `500 Internal Server Error` when **invalid headers** are provided in secure endpoints instead of returning a clean `400 Bad Request`.
 
- **[View Bug Report Sheet]()**
+* 📝 **[View Manual Test Cases Sheet](Bug-report.csv)**
 
 ---
 
