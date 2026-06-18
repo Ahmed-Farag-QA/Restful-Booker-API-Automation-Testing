@@ -10,9 +10,6 @@ This repository contains a comprehensive **End-to-End (E2E) API Automation Testi
 * **Newman-Reporter-HtmlExtra:** For generating deep-dive visual HTML dashboards.
 * **JavaScript (Chai Assertion Library):** For crafting detailed automated test scripts.
 
----<img width="1068" height="469" alt="screenshot-1781789396454" src="https://github.com/user-attachments/assets/5288fffb-9a44-48e5-b604-6a6e12697901" />
-<img width="1088" height="561" alt="screenshot-1781789366246" src="https://github.com/user-attachments/assets/66a606dc-0d0b-412d-bb77-3a9eaa05e17b" />
-
 
 ## 📊 Test Coverage & Scenarios
 The collection contains **8 major requests** designed to run sequentially to simulate a complete booking lifestyle flow:
@@ -24,6 +21,10 @@ The collection contains **8 major requests** designed to run sequentially to sim
 6. **Delete Booking (`DELETE`):** Removes the created booking completely.
 7. **Get Deleted Booking (`GET`):** Verifies the database rejection with a `404 Not Found` response.
 
+<img width="1088" height="561" alt="screenshot-1781789366246" src="https://github.com/user-attachments/assets/66a606dc-0d0b-412d-bb77-3a9eaa05e17b" />
+---<img width="1068" height="469" alt="screenshot-1781789396454" src="https://github.com/user-attachments/assets/5288fffb-9a44-48e5-b604-6a6e12697901" />
+
+
 ---
 
 ## 💡 Key Testing Implementations
@@ -34,6 +35,7 @@ The collection contains **8 major requests** designed to run sequentially to sim
 ---
 
 ## 🚀 How to Run the Project Locally
+
 
 ### 1. Prerequisites
 Make sure you have Node.js and Newman installed:
