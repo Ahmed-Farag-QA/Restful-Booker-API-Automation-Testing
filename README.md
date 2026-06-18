@@ -9,11 +9,9 @@ This repository contains a comprehensive **End-to-End (E2E) Manual & Automation 
 RESTful-Booker-API-Testing/
 │
 ├── README.md
-├── Test-Cases/
-│   └── Test_Cases.csv              # Comprehensive Manual Test Cases Sheet
+├── Test_Cases.csv              # Comprehensive Manual Test Cases Sheet
 │
-├── Bug-Reports/
-│   └── Bug_Report.csv             # Documented Bugs with Steps to Reproduce
+├── Bug_Report.csv              # Documented Bugs with Steps to Reproduce
 │
 ├── Postman/
 │   ├── RESTful_Booker_Collection.json   # Automated Postman Collection (55+ Assertions)
