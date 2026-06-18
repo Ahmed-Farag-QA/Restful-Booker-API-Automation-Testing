@@ -21,6 +21,8 @@ RESTful-Booker-API-Testing/
 │
 └── Screenshots/
     ├── Execution_Dashboard.png          # Newman htmlextra Dashboard Summary
+
+    
 ```
 
 
@@ -35,7 +37,7 @@ RESTful-Booker-API-Testing/
 
 ## 📋 Manual Test Cases & Scenarios
 Before jumping into automation, a comprehensive test coverage plan was established. You can review the full manual test cases designed for this project here:
-* 📝 **[View Manual Test Cases Sheet](manual-test-cases.csv)**
+* 📝 **[View Manual Test Cases Sheet](Manual-test-cases.csv)**
      
 
 ---
