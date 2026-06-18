@@ -1,6 +1,6 @@
-# 🚀 RESTful Booker API Testing & Automation Project
+# 🚀 Restful Booker API Testing Project
 
-This repository contains a comprehensive **End-to-End (E2E) Testing Project** for the famous **RESTful Booker application**. The project covers the full QA lifecycle, integrating professional Manual Test Cases, detailed Bug Reports, and a robust **Postman Automation Suite** executed via **Newman CLI**.
+This repository contains a comprehensive **End-to-End (E2E) Manual & Automation Testing Project** for the famous **RESTful Booker application**. The project covers the full QA lifecycle, integrating professional Manual Test Cases, detailed Bug Reports, and a robust **Postman Automation Suite** executed via **Newman CLI**.
 
 ---
 
