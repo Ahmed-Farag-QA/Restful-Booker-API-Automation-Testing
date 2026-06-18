@@ -1,0 +1,35 @@
+Test Case ID,Bug ID,Bug Title,Steps to Reproduce,Expected Result,Actual Result,Severity
+TC-010,BUG-001,API returns 500 Internal server error when creating a new booking with invalid headers,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2.Set POST method and add endpoint booking to URL
+3.Add invalid Headers ""Content-Type and Accept
+4.Enter valid valid booking payload in Body
+5.Click Send","Response body contains an appropriate error status code (e.g. 400 Bad Request""",API returns Internal server error 500,High
+TC-011,BUG-002,API returns 500 Internal server error when creating a new booking without a request body,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2.Set POST method and add endpoint booking to URL
+3.Add valid Headers ""Content-Type and Accept
+4.Leave the request body empty
+5.Click Send","Response body contains an appropriate error status code (e.g. 400 Bad Request""",API returns Internal server error 500,High
+TC-012,BUG-003,a new booking is created successfully when missing the mandatory fields,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2.Set POST method and add endpoint booking to URL
+3.Add valid Headers ""Content-Type and Accept
+4.Leave the request body empty
+5.Click Send","Response body contains an appropriate error status code (e.g. 400 Bad Request""",a new booking is created successfully with status code 200 OK,High
+TC-014,BUG-004,a new booking is created successfully with invalid date format,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2.Set POST method and add endpoint booking to URL
+3.Add valid Headers ""Content-Type and Accept
+4.Enter invalid format date
+5.Click Send","Response body contains an appropriate error status code (e.g. 400 Bad Request""",a new booking is created successfully with status code 200 OK,High
+TC-015,BUG-005,a new booking is created successfully when checkout date is earlier than check in date,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2.Set POST method and add endpoint booking to URL
+3.Add valid Headers ""Content-Type and Accept
+4.Enter a checkout date earlier than check in date
+5.Click Send","Response body contains an appropriate error status code (e.g. 400 Bad Request""",a new booking is created successfully with status code 200 OK,High
+TC-016,BUG-006,a new booking is created successfully with negative value in total price field,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2.Set POST method and add endpoint booking to URL
+3.Add valid Headers ""Content-Type and Accept
+4.Enter a negative value in total price field in Body
+5.Click Send","Response body contains an appropriate error status code (e.g. 400 Bad Request""",a new booking is created successfully with 200 OK status code,High
+TC-024,BUG-007,Incorrect status code on successful deletion,"1.Enter https://restful-booker.herokuapp.com/ in URL field
+2. Set request method to DELETE and add booking/{id} to URL
+3. Add valid Cookie: token={{Tokenautomated}} header
+4. Click Send",Booking deleted successfully and status code 200 OK,Booking deleted successfully and status code 201 create,
