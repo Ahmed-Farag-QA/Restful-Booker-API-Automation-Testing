@@ -21,16 +21,15 @@ The collection contains **8 major requests** designed to run sequentially to sim
 6. **Delete Booking (`DELETE`):** Removes the created booking completely.
 7. **Get Deleted Booking (`GET`):** Verifies the database rejection with a `404 Not Found` response.
 
-<img width="1088" height="561" alt="screenshot-1781789366246" src="https://github.com/user-attachments/assets/66a606dc-0d0b-412d-bb77-3a9eaa05e17b" />
----<img width="1068" height="469" alt="screenshot-1781789396454" src="https://github.com/user-attachments/assets/5288fffb-9a44-48e5-b604-6a6e12697901" />
-
-
 ---
 
 ## 💡 Key Testing Implementations
 * **High Test Coverage:** Implemented **55 comprehensive assertions** checking HTTP Status Codes, Response Times, Data Types, Data Integrity, and Regular Expressions (RegEx) for Date formats (`YYYY-MM-DD`).
 * **Dynamic Variable Chaining:** Zero hardcoded data; the scripts automatically capture IDs, tokens, and names from the responses and inject them into subsequent execution steps.
 * **Error Prevention:** Robust validation paths ensuring nested response structures (like `jsonData.booking.bookingdates`) are parsed correctly according to the response body map.
+
+<img width="1088" height="561" alt="screenshot-1781789366246" src="https://github.com/user-attachments/assets/66a606dc-0d0b-412d-bb77-3a9eaa05e17b" />
+<img width="1068" height="469" alt="screenshot-1781789396454" src="https://github.com/user-attachments/assets/5288fffb-9a44-48e5-b604-6a6e12697901" />
 
 ---
 
