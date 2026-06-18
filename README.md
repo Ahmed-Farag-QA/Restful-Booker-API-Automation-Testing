@@ -10,7 +10,9 @@ This repository contains a comprehensive **End-to-End (E2E) API Automation Testi
 * **Newman-Reporter-HtmlExtra:** For generating deep-dive visual HTML dashboards.
 * **JavaScript (Chai Assertion Library):** For crafting detailed automated test scripts.
 
----
+---<img width="1068" height="469" alt="screenshot-1781789396454" src="https://github.com/user-attachments/assets/5288fffb-9a44-48e5-b604-6a6e12697901" />
+<img width="1088" height="561" alt="screenshot-1781789366246" src="https://github.com/user-attachments/assets/66a606dc-0d0b-412d-bb77-3a9eaa05e17b" />
+
 
 ## 📊 Test Coverage & Scenarios
 The collection contains **8 major requests** designed to run sequentially to simulate a complete booking lifestyle flow:
@@ -38,3 +40,7 @@ Make sure you have Node.js and Newman installed:
 ```bash
 npm install -g newman
 npm install -g newman-reporter-htmlextra
+
+newman run "Restful Booker Project.postman_collection.json" -e "Restful Booker Project.postman_environment.json" --env-var "BaseURL=[https://restful-booker.herokuapp.com/](https://restful-booker.herokuapp.com/)" -r cli,htmlextra
+
+
