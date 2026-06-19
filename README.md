@@ -36,10 +36,8 @@ Before jumping into automation, a comprehensive test coverage plan was establish
 
 ## 🐞 Deliverables & Key Findings
 During test execution, critical server vulnerabilities were discovered and documented:
-
 * 🚨 **Bug #1:** API returns `500 Internal Server Error` when trying to create a booking with a completely **missing/empty request body**.
 * 🚨 **Bug #2:** API crashes with `500 Internal Server Error` when **invalid headers** are provided in secure endpoints instead of returning a clean `400 Bad Request`.
-
 * 📝 **[View Bug Report Sheet](Bug-report.csv)**
 
 ---
