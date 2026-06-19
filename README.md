@@ -1,6 +1,6 @@
 # 🚀 Restful Booker API Testing Project
 
-This repository contains a comprehensive **End-to-End (E2E) Manual & Automation Testing Project** for the famous **RESTful Booker application**. The project covers the full QA lifecycle, integrating professional Manual Test Cases, detailed Bug Reports, and a robust **Postman Automation Suite** executed via **Newman CLI**.
+This repository contains a comprehensive **End-to-End (E2E) Testing Project** for the famous **RESTful Booker application**. The project covers the full QA lifecycle, integrating professional Manual Test Cases, detailed Bug Reports, and a robust **Postman Suite** executed via **Newman CLI**.
 
 ---
 
@@ -13,12 +13,10 @@ RESTful-Booker-API-Testing/
 │
 ├── Bug_Report.csv              # Documented Bugs with Steps to Reproduce
 │
-├── Postman/
-│   ├── RESTful_Booker_Collection.json   # Automated Postman Collection (55+ Assertions)
-│   └── RESTful_Booker_Environment.json  # Environment Variables Configuration
+├── RESTful_Booker_Collection.json   # Automated Postman Collection (55+ Assertions)
+├── RESTful_Booker_Environment.json  # Environment Variables Configuration
 │
-└── Screenshots/
-    ├── Execution_Dashboard.png          # Newman htmlextra Dashboard Summary
+└── Execution_Dashboard.png          # Newman htmlextra Dashboard Summary
 
 
 
